@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-yingce-dynamic"
+description = "ComfyUI custom nodes: dynamic PlanV2 chain loaders, batch media loaders, audio sanitize, subject prompt, and 3D file/mesh output registration"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "opencv-python>=4.8"]
+
+[project.urls]
+Repository = "https://github.com/yingyingni/ComfyUI-YingceDynamic"
+
+[tool.comfy]
+PublisherId = "yingyingni"
+DisplayName = "ComfyUI-YingceDynamic"
+Icon = ""
